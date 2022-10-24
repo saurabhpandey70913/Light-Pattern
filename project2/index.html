@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Light</title>
+	<style >
+		body{
+			background-color:pink;
+		}
+		.main-heading{
+			text-align: center;
+			margin-top: 10%;
+			background-color: lightblue;
+			margin-left: 20%;
+			margin-right: 20%;
+			border-radius: 20px;
+		}
+		button{
+			border-radius: 3px;
+			padding: 5px;
+		}
+		button:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-heading">
+		<h1>Can you turn the light on?</h1>
+		<button onclick="document.getElementById('myImage').src='new on.png' " >Turn On the Light</button>
+		<img src="off.png" alt=" lghtOffPic" srcset="" style="width: 150px;" id="myImage">
+
+
+		<button onclick="document.getElementById('myImage').src='off.png' " >Turn off the Light</button>
+
+		
+	</div>
+
+</body>
+</html>
